@@ -1,0 +1,80 @@
+.fieldset-container, .fieldset-containers{
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.fieldset-container .form-select{
+    outline: none;
+    border: white;
+}
+
+.fieldset-container input{
+    border: #fff;
+    height: 3rem;
+    outline: none;
+}
+
+.fieldset-containers input{
+    border: #fff;
+    height: 10rem;
+    outline: none;
+    padding-bottom: 7rem;
+}
+
+
+.fieldset-title{
+    position: absolute;
+    background-color: #fff;
+    top: -10px;
+    left: 10px;
+    padding: 0 10px;
+    z-index: 1;
+}
+.buttondiv{
+    text-align: center;
+}
+.done{
+    width: 95%;
+}
+@media(max-width: 1024px){
+    .done{
+        width: 90%;
+    }
+    
+}
+
+@media(max-width: 900px){
+    .done{
+        width: 87%;
+    }
+
+    }
+@media(max-width: 768px){
+
+    .done{
+        width: 82%;
+    }
+
+    }
+
+@media(max-width: 480px){
+    .done{
+        width: 79%;
+    }
+
+}
+@media(max-width: 400px){
+    .done{
+        width: 75%;
+    }
+
+}
+@media(max-width: 350px){
+
+    .done{
+        width: 70%;
+    }
+}

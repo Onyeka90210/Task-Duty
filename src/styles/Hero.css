@@ -1,0 +1,171 @@
+.mainbox{
+    width: 100%;
+    min-height: 60vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+.manage{
+    width: 45%;
+}
+.manage>h2{
+    font-size: 3.1rem;
+}
+.manage>p{
+    margin-top: 2.2rem;
+    font-size: 1.25rem;
+}
+.picdiv{
+    text-align: end;
+    width: 35%;
+}
+.pic{
+    width: 100%;
+}
+/* .manage>button{
+    font-size: 15px;
+    background-color: #974FD0;
+} */
+.GTMT{
+    font-size: 1rem;
+    background-color: #974FD0;
+    color: white;
+    border-radius: 7px;
+    border-style: none;
+    height: 2rem;
+}
+
+@media(max-width: 1024px){
+    .manage>h2{
+        font-size: 2rem;
+    }
+    .manage>p{
+        font-size: 1rem;
+    }
+ 
+    .GTMT{
+        font-size: 0.85rem;
+    }
+}
+
+@media(max-width: 900px){
+    .mainbox{
+        flex-direction: column-reverse;
+        }
+        .manage{
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+        .picdiv{
+            text-align: center;
+            width: 100%;
+        }
+        .manage>h2{
+            font-size: 3.4rem;
+        }
+        .manage>p{
+            margin-top: 1rem;
+            font-size: 1.5rem;
+        }
+        .GTMT{
+            height: 2rem;
+            font-size: 1.2rem;
+        }
+    
+
+    }
+@media(max-width: 768px){
+
+        .manage>h2{
+            font-size: 3rem;
+        }
+        .manage>p{
+
+            font-size: 1.2rem;
+        }
+        .GTMT{
+            height: 2rem;
+            font-size: 1rem;
+        }
+    
+
+    }
+
+@media(max-width: 450px){
+    .manage>h2{
+        font-size: 2.8rem;
+    }
+    .manage>p{
+        font-size: 1rem;
+    }
+    .GTMT{
+        height: 1.5rem;
+        font-size: 0.8rem;
+    }
+
+}
+@media(max-width: 400px){
+    .manage>h2{
+        font-size: 2.3rem;
+    }
+    .manage>p{
+        font-size: 0.9rem;
+    }
+    .GTMT{
+        height: 1.5rem;
+        font-size: 0.7rem;
+    }
+
+}
+@media(max-width: 350px){
+
+    .manage>h2{
+        font-size: 2rem;
+    }
+    .manage>p{
+        font-size: 0.7rem;
+    }
+    .GTMT{
+        height: 1.2rem;
+        font-size: 0.5rem;
+    }
+}
+
+    
+
+
+
+
+    /* .mainbox{
+
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        gap: 2rem;
+        }
+    .manage{
+        width: 100%;
+        margin-bottom: 9rem;
+    }
+    .manage>h2{
+        font-size: 25px;
+    }
+    .manage>p{
+        margin-top: 6px;
+        margin-bottom: 6px;
+        font-size: 10px;
+    }
+    .GTMT{
+        height: 1rem;
+        font-size: 8px;
+    }
+    .picdiv{
+        text-align: center;
+
+    }
+    .pic{
+        width: 90%;
+    } */
+
+
+
