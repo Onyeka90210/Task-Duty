@@ -40,8 +40,8 @@ const NewTask = () => {
           <option value="">
             <span>URGENT</span> <span>IMPORTANT</span>
           </option>
-          <option value="1">urgent</option>
-          <option value="2">important</option>
+          <option value="1">Urgent</option>
+          <option value="2">Important</option>
 
 
         </Form.Select>
