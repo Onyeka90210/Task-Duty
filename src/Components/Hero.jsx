@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Hero.css";
 import { Link } from "react-router-dom";
+import taskbox from "../assets/Component 1.svg"
 
 const Hero = () => {
   return (
@@ -17,7 +18,7 @@ const Hero = () => {
           <Link to='/Alltask'><button className=" w-25 mt-2 text-white GTMT" style={{backgroundColor: "#974FD0"}}>Go to My task</button></Link>
         </div>
         <div className="picdiv">
-          <img src="/src/assets/Component 1.svg" alt="" className="pic"/>
+          <img src= {taskbox} alt="" className="pic"/>
         </div>
       </div>
     </main>
